@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+body{
+    background-color: rgb(30, 30, 30);
+    color: #f1e8c7;
+    width: 1349px;
+}
+.header{
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    padding: 5px ;
+}
+.header .navbar{
+    list-style: none;
+}
+.header .navbar li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.header .navbar li:hover{
+    transform:scale(1.2);
+}
+.header .navbar a{
+    font-size: 700;
+    color: #ce8722;
+    text-decoration: none;
+}
+.header .navbar li a:hover{
+    color: #ce8722;
+}
+.header .btn button{
+    justify-self: flex-end;
+    font-weight: 700;
+    color: rgb(15, 15, 15);
+    padding: 5px 15px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.header .btn button:hover{
+    background-color: #ffffff;
+    color: #ce8722;
+    transform: scale(1.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.galeria {
+    width: 1200px;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.galeria img {
+    margin: 5px;
+    padding: 0px;
+    width: 215px;
+    height: 125px;
+}
+.galeria img:hover {
+    transform: scale(2);
+    transition: all 0.5s ease 0s;
+}
+
+.historia {
+    width: 1200px;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+}
+.flex .historia div{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.historia h2{
+    font-size: 24px;
+    color: #ce8722;
+    text-decoration: underline;
+}
+.historia p {
+    font-size: 15px;
+    margin: 5px 0px 15px 0px;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+.contenedorTablas {
+    width: 1200px;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+.tablas {
+    margin: 5px;
+    padding: 5px;
+    height: max-content;
+}
+.tablas div h3 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(15, 15, 15);
+}
