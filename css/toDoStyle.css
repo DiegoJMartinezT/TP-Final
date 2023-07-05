@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.conteiner{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0b0a5e, #07a3e0);
+    padding: 10px;
+}
+.listaTareas {
+    width: 540px;
+    background-color: #e9e9e9;
+    margin: 100px auto 20px;
+    padding: 10px 20px 10px;
+    border-radius: 10px;
+}
+.listaTareas h2 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b9bdfc;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-size: 16px;
+}
+button {
+    border: none;
+    outline: none;
+    padding: 16px 20px;
+    background: #0b0a5e;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    background-color: #b9bdfc;
+    margin: 10px 0px;
+    border-radius: 30px;
+}
+
+.task-text {
+    justify-content: flex-start;
+    margin-right: auto;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.new {
+    background-color: #b9bdfc;
+}
+
+.completed {
+    background-color: #07a3e0;
+}
+
+.btnEliminar {
+    padding: 10px 15px;
+    border-radius: 25px;
+    color: #ffffff;
+}
+
+.btnEliminar:hover {
+    background-color: rgb(199, 8, 8);
+}
+
+.task-status {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+

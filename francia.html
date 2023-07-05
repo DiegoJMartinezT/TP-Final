@@ -4,31 +4,366 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Francia</title>
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/stylePaises.css">
+    <link rel="shortcut icon" href="./imagenes/copa.png" type="image/x-icon">
 </head>
 <body>
     <header class="header">
         <nav class="navbar">
             <ul>
-                <li><a href="index.html" >Inicio</a></li>
-                <li><a href="alemania.html">Alemania</a></li>
-                <li><a href="argentina.html">Argentina</a></li>
-                <li><a href="brasil.html">Brasil</a></li>
-                <li><a href="españa.html">España</a></li>
-                <li><a href="francia.html">Francia</a></li>
-                <li><a href="inglaterra.html">Inglaterra</a></li>
-                <li><a href="italia.html">Italia</a></li>
-                <li><a href="uruguay.html">Uruguay</a></li>
-                <li><a href="form.html" class="btn"><button>Contacto</button></a></li>
+                <li><a href="index.html">Inicio</a></li> 
+                <li><a href="alemania.html" target="_blank"><img src="./imagenes/DE.webp" alt=""></a></li>
+                <li><a href="argentina.html" target="_blank"><img src="./imagenes/AR.webp" alt=""></a></li>
+                <li><a href="brasil.html" target="_blank"><img src="./imagenes/BR.webp" alt=""></a></li>
+                <li><a href="españa.html" target="_blank"><img src="./imagenes/ES.webp" alt=""></a></li>
+                <li><a href="francia.html" target="_blank"><img src="./imagenes/FR.webp" alt=""></a></li>
+                <li><a href="inglaterra.html" target="_blank"><img src="./imagenes/GB.png" alt=""></a></li>
+                <li><a href="italia.html" target="_blank"><img src="./imagenes/IT.webp" alt=""></a></li>
+                <li><a href="uruguay.html" target="_blank"><img src="./imagenes/UY.webp" alt=""></a></li>
+                <li><a href="form.html" target="_blank" class="btn"><button>Registrarse</button></a></li>
             </ul>
         </nav>
     </header>
-    <section>Francia
-        <div>Jugadores campeones</div>
-        <div>Actuaciones</div>
-        <div>Goleadores</div>
-        <div>Asistentes</div>
-        <div>Mas partidos</div>
+    <h1>Francia</h1>
+    <section class="galeria, mundiales">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./imagenes/Fra1998.jpg" class="d-block w-100" alt="Francia 1998 - Francia">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/Fra2018.jpg" class="d-block w-100" alt="Rusia 2018 - Francia">
+              </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </section>
+    <section class="mundiales">
+        <div class="historia">
+            <h2>Mundiales ganados</h2>
+            <div class="campeonatos">
+                <h3>Francia 1998</h3>
+                <p>Francia, entrenada por Aimé Jacquet, fue la anfitriona de la Copa Mundial de Fútbol de 1998. En ese evento superó la primera fase ganando sus tres partidos y por octavos de final derrotó en la prórroga por 1-0 a Paraguay con un gol de oro anotado por Laurent Blanc al minuto 113. En cuartos eliminó a Italia en definición por penales y en la semifinal derrotó 2-1 a Croacia con goles de Lilian Thuram. En la final el equipo francés liderado por Zinedine Zidane e integrado, entre otros, por Fabien Barthez, Robert Pirès, Thierry Henry, Laurent Blanc y el capitán Didier Deschamps, ganó el primer título mundial para Francia el 12 de julio de 1998 en el Stade de France, tras golear 3-0 a Brasil con dos goles de Zidane y uno de Emmanuel Petit.</p>
+                <div class="contenedorTablas">
+                    <div class="tablas">
+                        <h4>Jugadores</h4>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Dorsal</th><th>Jugador</th><th>Posicion</th>
+                                </tr>
+                            </thead>
+                            <tr>
+                                <td>1</td><td>Bernard Lama</td><td>Arquero</td>
+                            </tr>
+                            <tr>
+                                <td>16</td><td>Fabien Barthez</td><td>Arquero</td>
+                            </tr>
+                            <tr>
+                                <td>22</td><td>Lionel Charbonnier</td><td>Arquero</td>
+                            </tr>
+                            <tr>
+                                <td>2</td><td>Vincent Candela</td><td>Defensor</td>
+                            </tr>
+                            <tr>
+                                <td>3</td><td>Bixente Lizarazu</td><td>Defensor</td>
+                            </tr>
+                            <tr>
+                                <td>5</td><td>Laurent Blanc</td><td>Defensor</td>
+                            </tr>
+                            <tr>
+                                <td>8</td><td>Marcel Desailly</td><td>Defensor</td>
+                            </tr>
+                            <tr>
+                                <td>15</td><td>Lilian Thuram</td><td>Defensor</td>
+                            </tr>
+                            <tr>
+                                <td>18</td><td>Frank Leboeuf</td><td>Defensor</td>
+                            </tr>
+                            <tr>
+                                <td>4</td><td>Patrick Vieira</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td>6</td><td>Youri Djorkaeff</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td>7</td><td>Didier Deschamps</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td>10</td><td>Zinadine Zidane</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td>11</td><td>Robert Pires</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td>13</td><td>Bernard Diomede</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td>14</td><td>Alain Boghossian</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td>17</td><td>Emmanuel Petit</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td>19</td><td>Christian Karembeu</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td>9</td><td>Stephane Guivarch</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td>12</td><td>Thierry Henry</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td>20</td><td>David Trezeguet</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td>21</td><td>Chritophe Dugarry</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Aime Jacquet</td><td>Director tecnico</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <h3>Rusia 2018</h3>
+                <p>En el Mundial de Rusia 2018 Francia quedó encuadrada en el grupo C junto a las selecciones de Australia, Perú y Dinamarca. En su primer partido derrotan por 2-1 a Australia, en su segundo encuentro vence por 1-0 a Perú y en su último partido de fase de grupos ya clasificados empatan 0-0 con Dinamarca quedando como líder del grupo con 7 puntos. En Octavos de final se enfrentó a la selección Argentina logrando ganarle por un marcador de 4-3, ya en Cuartos de final se enfrentaron con Uruguay a la cual vence por 2-0 sellando su participación en semifinales. En dicha instancia logran ganarle por 1-0 a Bélgica logrando clasificar a su tercera final en una copa mundial. En la final jugada en Moscú su rival era Croacia que por primera vez en su historia jugaba una final mundialista, en dicho partido Francia logró ganarle al conjunto croata por 4-2 logrando ganar su segundo título en la Copa Mundial de Fútbol, 20 años después del primero.</p>
+                <div class="contenedorTablas">
+                    <div class="tablas">
+                        <h4>Jugadores</h4>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Dorsal</th><th>Jugador</th><th>Posicion</th>
+                                </tr>
+                            </thead>
+                            <tr>
+                                <td>1</td><td>Hugo Lloris</td><td>Arquero</td>
+                            </tr>
+                            <tr>
+                                <td>16</td><td>Steve Mandanda</td><td>Arquero</td>
+                            </tr>
+                            <tr>
+                                <td>23</td><td>Alphonse Areola</td><td>Arquero</td>
+                            </tr>
+                            <tr>
+                                <td>2</td><td>Benjamin Pavard</td><td>Defensor</td>
+                            </tr>
+                            <tr>
+                                <td>3</td><td>Presnel Kimpembe</td><td>Defensor</td>
+                            </tr>
+                            <tr>
+                                <td>4</td><td>Raphael Varane</td><td>Defensor</td>
+                            </tr>
+                            <tr>
+                                <td>5</td><td>Samuel Umtiti</td><td>Defensor</td>
+                            </tr>
+                            <tr>
+                                <td>17</td><td>Adil Rami</td><td>Defensor</td>
+                            </tr>
+                            <tr>
+                                <td>19</td><td>Djibril Sidibe</td><td>Defensor</td>
+                            </tr>
+                            <tr>
+                                <td>21</td><td>Lucas Hernandez</td><td>Defensor</td>
+                            </tr>
+                            <tr>
+                                <td>22</td><td>Benjamin Mendy</td><td>Defensor</td>
+                            </tr>
+                            <tr>
+                                <td>6</td><td>Paul Pogba</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td>12</td><td>Corentin Tolisso</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td>13</td><td>NGolo Kante</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td>14</td><td>Blaise Matuidi</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td>15</td><td>Steve Nzonzi</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td>7</td><td>Antoine Griezmann</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td>8</td><td>Thomas Lemar</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td>9</td><td>Olivier Giroud</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td>10</td><td>Kylian Mbappe</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td>11</td><td>Ousmane Dembele</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td>18</td><td>Nabil Fekir</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td>20</td><td>Florian Thauvin</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Didier Deschamps</td><td>Director tecnico</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mundiales">    
+        <div class="contenedorTablas">
+            <div>
+                <div class="tablas">
+                    <h4>Rendimiento</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Sede</th><th>Año</th><th>Fase</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td>Uruguay</td><td>1930</td><td>Fase de grupos</td>
+                        </tr>
+                        <tr>
+                            <td>Italia</td><td>1934</td><td>Octavos de final</td>
+                        </tr>
+                        <tr>
+                            <td>Francia</td><td>1938</td><td>Cuartos de final</td>
+                        </tr>
+                        <tr>
+                            <td>Brasil</td><td>1950</td><td>No participo</td>
+                        </tr>
+                        <tr>
+                            <td>Suiza</td><td>1954</td><td>Fase de grupos</td>
+                        </tr>
+                        <tr>
+                            <td>Suecia</td><td>1958</td><td>Tercer puesto</td>
+                        </tr>
+                        <tr>
+                            <td>Chile</td><td>1962</td><td>No participo</td>
+                        </tr>
+                        <tr>
+                            <td>Inglaterra</td><td>1966</td><td>Fase de grupos</td>
+                        </tr>
+                        <tr>
+                            <td>Mexico</td><td>1970</td><td>No participo</td>
+                        </tr>
+                        <tr>
+                            <td>Alemania</td><td>1974</td><td>No participo</td>
+                        </tr>
+                        <tr>
+                            <td>Argentina</td><td>1978</td><td>Fase de grupos</td>
+                        </tr>
+                        <tr>
+                            <td>España</td><td>1982</td><td>Cuarto puesto</td>
+                        </tr>
+                        <tr>
+                            <td>Mexico</td><td>1986</td><td>Tercer puesto</td>
+                        </tr>
+                        <tr>
+                            <td>Italia</td><td>1990</td><td>No participo</td>
+                        </tr>
+                        <tr>
+                            <td>Estados Unidos</td><td>1994</td><td>No participo</td>
+                        </tr>
+                        <tr>
+                            <td>Francia</td><td>1998</td><td>Campeon</td>
+                        </tr>
+                        <tr>
+                            <td>Corea-Japon</td><td>2002</td><td>Fase de grupos</td>
+                        </tr>
+                        <tr>
+                            <td>Alemania</td><td>2006</td><td>Subcampeon</td>
+                        </tr>
+                        <tr>
+                            <td>Sudafrica</td><td>2010</td><td>Fase de grupos</td>
+                        </tr>
+                        <tr>
+                            <td>Brasil</td><td>2014</td><td>Cuartos de final</td>
+                        </tr>
+                        <tr>
+                            <td>Rusia</td><td>2018</td><td>Campeon</td>
+                        </tr>
+                        <tr>
+                            <td>Qatar</td><td>2022</td><td>Subcampeon</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div>
+                <div class="tablas">
+                    <h4>Maximos goleadores</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Jugador</th><th>Goles</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td>Just Fontaine</td><td>13</td>
+                        </tr>
+                        <tr>
+                            <td>Kylian Mbappe</td><td>12</td>
+                        </tr>
+                        <tr>
+                            <td>Thierry Henry</td><td>6</td>
+                        </tr>
+                        <tr>
+                            <td>Olivier Giroud</td><td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Michel Platini</td><td>5</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div>
+                <div class="tablas">
+                    <h4>Jugadores con mas partidos</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Jugador</th><th>Partidos</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td>Hugo Lloris</td><td>20</td>
+                        </tr>
+                        <tr>
+                            <td>Antoine Griezmann</td><td>19</td>
+                        </tr>
+                        <tr>
+                            <td>Olivier Giroud</td><td>18</td>
+                        </tr>
+                        <tr>
+                            <td>Raphael Varane</td><td>18</td>
+                        </tr>
+                        <tr>
+                            <td>Fabien Barthez</td><td>17</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>    
+        </div>
+    </section>
+    <footer>
+        Copyright 2023. - Todos los derechos reservados.
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

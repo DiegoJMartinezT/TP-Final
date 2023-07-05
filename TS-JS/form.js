@@ -10,11 +10,9 @@ const user = {
 function handleSubmit(e) {
     e.preventDefault();
     user.name = e.target.name.value;
-    user.name = e.target.username.value;
+    user.username = e.target.username.value;
     user.email = e.target.email.value;
     user.password = e.target.password.value;
     console.log(user);
+    form.value = ""
  }
-
- //----------------------------------------------------------------------------------------
- 

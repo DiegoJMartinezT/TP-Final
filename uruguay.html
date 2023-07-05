@@ -4,31 +4,363 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uruguay</title>
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/stylePaises.css">
+    <link rel="shortcut icon" href="./imagenes/copa.png" type="image/x-icon">
 </head>
 <body>
     <header class="header">
         <nav class="navbar">
             <ul>
-                <li><a href="index.html" >Inicio</a></li>
-                <li><a href="alemania.html">Alemania</a></li>
-                <li><a href="argentina.html">Argentina</a></li>
-                <li><a href="brasil.html">Brasil</a></li>
-                <li><a href="españa.html">España</a></li>
-                <li><a href="francia.html">Francia</a></li>
-                <li><a href="inglaterra.html">Inglaterra</a></li>
-                <li><a href="italia.html">Italia</a></li>
-                <li><a href="uruguay.html">Uruguay</a></li>
-                <li><a href="form.html" class="btn"><button>Contacto</button></a></li>
+                <li><a href="index.html">Inicio</a></li> 
+                <li><a href="alemania.html" target="_blank"><img src="./imagenes/DE.webp" alt=""></a></li>
+                <li><a href="argentina.html" target="_blank"><img src="./imagenes/AR.webp" alt=""></a></li>
+                <li><a href="brasil.html" target="_blank"><img src="./imagenes/BR.webp" alt=""></a></li>
+                <li><a href="españa.html" target="_blank"><img src="./imagenes/ES.webp" alt=""></a></li>
+                <li><a href="francia.html" target="_blank"><img src="./imagenes/FR.webp" alt=""></a></li>
+                <li><a href="inglaterra.html" target="_blank"><img src="./imagenes/GB.png" alt=""></a></li>
+                <li><a href="italia.html" target="_blank"><img src="./imagenes/IT.webp" alt=""></a></li>
+                <li><a href="uruguay.html" target="_blank"><img src="./imagenes/UY.webp" alt=""></a></li>
+                <li><a href="form.html" target="_blank" class="btn"><button>Registrarse</button></a></li>
             </ul>
         </nav>
     </header>
-    <section>Uruguay
-        <div>Jugadores campeones</div>
-        <div>Actuaciones</div>
-        <div>Goleadores</div>
-        <div>Asistentes</div>
-        <div>Mas partidos</div>
+    <h1>Uruguay</h1>
+    <section class="galeria, mundiales">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./imagenes/Uru1930.jpg" class="d-block w-100" alt="Uruguay 1930 - Uruguay">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/Uru1950.jpg" class="d-block w-100" alt="Brasil 1950 - Brasil">
+              </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </section>
+    <section class="mundiales">
+        <div class="historia">
+            <h2>Mundiales ganados</h2>
+            <div class="campeonatos">
+                <h3>Uruguay 1930</h3>
+                <p>Uruguay propuso celebrar la primera Copa Mundial de Fútbol de 1930, y la FIFA le otorgó el derecho a organizarlo en conmemoración del centenario de la Jura de la Constitución, además de los títulos mundiales en los Juegos Olímpicos. <br>Uruguay debutaría el 18 de julio en el Estadio Centenario ante unos 50.000 espectadores, frente a Perú. En dicho partido obtendría una pálida victoria por 1 a 0 con gol de Héctor Castro. En su siguiente partido, disputado el 21 de julio, ganó por goleada 4 a 0 frente a la selección de Rumania con goles de Dorado, Scarone, Anselmo y Cea, clasificándose así para las semifinales. En dicha instancia, el equipo celeste se enfrentó a Yugoslavia en donde ganó con contundencia por 6 a 1 con triplete de Cea, doblete de Anselmo y uno de Iriarte, clasificando a la final. Allí se encontraría con uno de sus más grandes rivales, nuevamente con la selección argentina, equipo que también era considerado candidato al título. Ya en el partido final disputado el 30 de julio, y ante 70.000 espectadores, el equipo celeste repitió lo hecho dos años antes en Ámsterdam, derrotando nuevamente a los argentinos. Con un gol tempranero de Pablo Dorado a los 12 minutos, Uruguay se ponía en ventaja, pero más tarde Argentina lograría remontar parcialmente con goles de Peucelle y Stábile a los 20 y 37 respectivamente, resultado con el que se fue el primer tiempo. Para el segundo tiempo, saliendo más decidido, el equipo uruguayo empataría con gol de Cea a los 57, pasaría a ganar a los 68 con gol de Iriarte, y terminaría cerrando Castro a los 89, finalmente con resultado por 4-2. Así, Uruguay se convierte en el primer ganador en la historia de dicho torneo.</p>
+                <div class="contenedorTablas">
+                    <div class="tablas">
+                        <h4>Jugadores</h4>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Dorsal</th><th>Jugador</th><th>Posicion</th>
+                                </tr>
+                            </thead>
+                            <tr>
+                                <td></td><td>Enrique Ballestrero</td><td>Arquero</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Miguel Cappuccini</td><td>Arquero</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Domingo Tejera</td><td>Defensor</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Emilio Recoba</td><td>Defensor</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Ernesto Mascheroni</td><td>Defensor</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Jose Nasazzi</td><td>Defensor</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Jose Andrade</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Carlos Riolfo</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Lorenzo Fernandez</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Alvaro Gestido</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Conduelo Piriz</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Angel Melogno</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Santos Urdinaran</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Hector Scarone</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Zoilo Saldombide</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Pedro Petrone</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Victoriano Iriarte</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Pablo Dorado</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Pedro Cea</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Hector Castro</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Juan Carlos Calvo</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Juan Anselmo</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Alberto Suppici</td><td>Director tecnico</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <h3>Brasil 1950</h3>
+                <p>Luego de finalizada la guerra, Uruguay reapareció y extendió su hegemonía derrotando a Brasil en el último partido de la Copa Mundial de Fútbol de 1950. Este evento mítico es conocido mundialmente como El Maracanazo, un logro deportivo histórico y uno de los momentos más dramáticos de la historia del fútbol. En este partido Brasil era claramente el favorito para ganar su primer campeonato, ya que era el local además de golear en los otros partidos a España y Suecia con marcadores abultados de 1-6 y 1-7 respectivamente. En tanto que Uruguay llegaba a la final con una irregular actuación, con un empate de 2-2 frente a España y una victoria ajustada de 3-2 frente a Suecia. Lo que dejaba a Uruguay con pocas posibilidades de ser campeón, ya que si Brasil ganaba o empataba el partido, se convertiría automáticamente en campeón mundial y Uruguay necesitaba solo de ganar el partido para ser campeón, En el primer tiempo, el partido empezó sin goles, lo que generó la molestia de los espectadores en el estadio. Ya en el segundo tiempo, el brasileño Friaça anota el primer gol del partido, los espectadores brasileños estallan de alegría por el gol que dejaba el marcador por 1-0 a favor de Brasil. Sin embargo la alegría de los brasileños duro poco, en el minuto 21, Ghiggia escapa por derecha y tras simular que rematará a la portería opta por el pase al medio del área, donde el ingreso sin marcas de Juan Alberto Schiaffino le permite igualar el marcador del encuentro a 1-1, aun con este resultado Brasil se estaba volviendo campeón del mundo. Finalmente los sueños de los jugadores y aficionados brasileños de convertirse en campeones se habían terminado cuando en el minuto 34 del segundo tiempo se genera otro ataque uruguayo donde Obdulio Varela lanza un pase hacia Alcides Ghiggia, que entrega el balón a Julio Pérez, quien se la devuelve en corto a Ghiggia que supera al defensa brasileño Bigode, y finge como en el primer gol, lanzar un centro ante el arquero local Moacir Barbosa. Barbosa comete el error que marcará el resto de su vida: da un paso hacia adelante seguro que se repetirá la escena de primer gol y entrega una oportunidad en su primer palo. Ghiggia aprovecha la ocasión y patea un violento tiro entre el arquero y el poste, para darle a Uruguay su segundo titulo mundial.</p>
+                <div class="contenedorTablas">
+                    <div class="tablas">
+                        <h4>Jugadores</h4>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Dorsal</th><th>Jugador</th><th>Posicion</th>
+                                </tr>
+                            </thead>
+                            <tr>
+                                <td></td><td>Roque Maspoli</td><td>Arquero</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Anibal Paz</td><td>Arquero</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Hector Vilches</td><td>Defensor</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Eusebio Tejera</td><td>Defensor</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Schubert Gambetta</td><td>Defensor</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Matias Gonzalez</td><td>Defensor</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>William Martinez</td><td>Defensor</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Obdulio Varela</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Carlos Romero</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Victor Rodriguez Andrade</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Rodolfo Pini</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Washington Ortuno</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Juan Carlos Gonzalez</td><td>Mediocampista</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Ruben Moran</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Julio Perez</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Oscar Miguez</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Luis Rijo</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Alcides Ghiggia</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Juan Schiaffino</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Juan Burgueno</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Ernesto Vidal</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Julio Cesar Britos</td><td>Delantero</td>
+                            </tr>
+                            <tr>
+                                <td></td><td>Juan Lopez</td><td>Director tecnico</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </section>
+    <section class="mundiales">
+        <div class="contenedorTablas"> 
+            <div>
+                <div class="tablas">
+                    <h4>Rendimiento</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Sede</th><th>Año</th><th>Fase</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td>Uruguay</td><td>1930</td><td>Campeon</td>
+                        </tr>
+                        <tr>
+                            <td>Italia</td><td>1934</td><td>No participo</td>
+                        </tr>
+                        <tr>
+                            <td>Francia</td><td>1938</td><td>No participo</td>
+                        </tr>
+                        <tr>
+                            <td>Brasil</td><td>1950</td><td>Campeon</td>
+                        </tr>
+                        <tr>
+                            <td>Suiza</td><td>1954</td><td>Cuarto puesto</td>
+                        </tr>
+                        <tr>
+                            <td>Suecia</td><td>1958</td><td>No participo</td>
+                        </tr>
+                        <tr>
+                            <td>Chile</td><td>1962</td><td>Fase de grupos</td>
+                        </tr>
+                        <tr>
+                            <td>Inglaterra</td><td>1966</td><td>Cuartos de final</td>
+                        </tr>
+                        <tr>
+                            <td>Mexico</td><td>1970</td><td>Cuarto puesto</td>
+                        </tr>
+                        <tr>
+                            <td>Alemania</td><td>1974</td><td>Fase de grupos</td>
+                        </tr>
+                        <tr>
+                            <td>Argentina</td><td>1978</td><td>No participo</td>
+                        </tr>
+                        <tr>
+                            <td>España</td><td>1982</td><td>No participo</td>
+                        </tr>
+                        <tr>
+                            <td>Mexico</td><td>1986</td><td>Octavos de final</td>
+                        </tr>
+                        <tr>
+                            <td>Italia</td><td>1990</td><td>Octavos de final</td>
+                        </tr>
+                        <tr>
+                            <td>Estados Unidos</td><td>1994</td><td>No participo</td>
+                        </tr>
+                        <tr>
+                            <td>Francia</td><td>1998</td><td>No participo</td>
+                        </tr>
+                        <tr>
+                            <td>Corea-Japon</td><td>2002</td><td>Fase de grupos</td>
+                        </tr>
+                        <tr>
+                            <td>Alemania</td><td>2006</td><td>No participo</td>
+                        </tr>
+                        <tr>
+                            <td>Sudafrica</td><td>2010</td><td>Cuarto puesto</td>
+                        </tr>
+                        <tr>
+                            <td>Brasil</td><td>2014</td><td>Octavos de final</td>
+                        </tr>
+                        <tr>
+                            <td>Rusia</td><td>2018</td><td>Cuartos de final</td>
+                        </tr>
+                        <tr>
+                            <td>Qatar</td><td>2022</td><td>Fase de grupos</td>
+                        </tr>
+                    </table>    
+                </div>
+            </div>
+            <div>
+                <div class="tablas">
+                    <h4>Maximos goleadores</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Jugador</th><th>Goles</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td>Oscar Miguez</td><td>8</td>
+                        </tr>
+                        <tr>
+                            <td>Luis Suarez</td><td>7</td>
+                        </tr>
+                        <tr>
+                            <td>Diego Forlan</td><td>6</td>
+                        </tr>
+                        <tr>
+                            <td>Edinson Cavani</td><td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Pedro Cea</td><td>5</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div>
+                <div class="tablas">
+                    <h4>Jugadores con mas partidos</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Jugador</th><th>Partidos</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td>Edinson Cavani</td><td>17</td>
+                        </tr>
+                        <tr>
+                            <td>Diego Godin</td><td>16</td>
+                        </tr>
+                        <tr>
+                            <td>Fernado Muslera</td><td>16</td>
+                        </tr>
+                        <tr>
+                            <td>Luis Suarez</td><td>16</td>
+                        </tr>
+                        <tr>
+                            <td>Ladislao Mazurkiewicz</td><td>13</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <footer>
+        Copyright 2023. - Todos los derechos reservados.
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
